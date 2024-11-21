@@ -287,7 +287,7 @@ h3.my-profession {
   top: -40px;
 }
 .home .home-img img {
-  height: 400px;
+  height: 300px;
 }
 /*Stylisation de A propos*/
 .about .about-content {
@@ -613,4 +613,50 @@ h3.my-profession {
 .contact-form .btn {
   height: 50px;
   padding: 0 50px;
+}
+
+@media (max-width:1199px) 
+{
+  .aside-navbar {
+    left: -270px; 
+  }
+  .main-content {
+    padding-left: 0; 
+  }
+  .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 999px) 
+{
+  .service-item,
+  .contact-info,
+  .portfolio-item
+  {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .home-info
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-img {
+    display: none;
+  }
+}
+@media (max-width: 767px)
+{
+  .about .about-content .education,
+  .about .about-content .experience,
+  .about .about-content .skills,
+  .service-item,
+  .portfolio-item,
+  .contact-info-item,
+  .col-6,
+  .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
