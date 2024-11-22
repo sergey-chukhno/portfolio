@@ -6,8 +6,12 @@
   <link rel="stylesheet" href = 'css/style.css'>
   <link rel="stylesheet" href="css/skins/color-1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+  <!--Style switcher-->
   <link rel="stylesheet" href="css/style-switcher.css">
-  <title>CHUKHNO Sergey, Portfolio site</title>
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <title>CHUKHNO Sergey, My Portfolio Site</title>
 </head>
 
 <body>
@@ -22,23 +26,23 @@
         <span></span>
       </div>
       <ul class="nav">
-        <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"><i class="fa fa-user"></i></fa-home>About</a></li>
-        <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-        <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i></fa-home>About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contacts</a></li>
       </ul>
     </nav>
     <!-- Main content-->
      <div class="main-content">
       <!--Accueil-->
-      <section class="home section">
+      <section class="home section" id="home">
         <div class="container">
           <div class="row">
             <div class="home-info padd-15">
               <h3 class="hello">Hello, my name is <span class="name">Sergey CHUKHNO</span></h3>
-              <h3 class="my-profession">I am a <span class="typing">Software engineer</span></h3>
-              <p>I am a software engineer, specialized in Python, Java and Java Script. I am passionate about coding and new technologies and am always keen to embark on new and exciting projects!</p>
+              <h3 class="my-profession">and my expertise is in <span class="typing">Software engineering</span></h3>
+              <p>I am an aspiring software developer, specialized in Python, Java and Java Script. I am passionate about coding and new technologies and am always keen to embark on new and exciting projects!</p>
             </div>
             <div class="home-img padd-15">
               <img src="images/my-image.jpg">
@@ -47,7 +51,7 @@
         </div>
       </section>
       <!--A propos section commence ici-->
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -126,7 +130,7 @@
         </div>
         <div class="row">
           <div class="education padd-15">
-            <h3 class="title">Education</h3>
+            <h3 class="title">Experience</h3>
             <div class="row">
               <div class="timeline-box padd-15">
                 <div class="timeline shadow-dark">
@@ -136,42 +140,34 @@
                     <h3 class="timeline-date">
                       <i class="fa fa-calendar"></i> 2024-
                     </h3>
-                    <h4 class="timeline-title">Bachelor in Computer Science/Software Engineering</h4>
+                    <h4 class="timeline-title">Apprentice in Software Engineering</h4>
                     <p class="timeline-text">La Plateforme, Marseille, France</p>
                   </div>
                   <div class="timeline-item">
                     <div class="circle-dot">
                     </div>
                     <h3 class="timeline-date">
-                      <i class="fa fa-calendar"></i> 2009-2011
+                      <i class="fa fa-calendar"></i> 2018-2023
                     </h3>
-                    <h4 class="timeline-title">Postgraduate research in politcal economy</h4>
-                    <p class="timeline-text">University of Cambridge, UK</p>
+                    <h4 class="timeline-title">Digital Entrepreneur</h4>
+                    <p class="timeline-text">Lux International Matchmaking Agency, Odessa, Ukraine</p>
                   </div>
                   <div class="timeline-item">
                     <div class="circle-dot">
                     </div>
                     <h3 class="timeline-date">
-                      <i class="fa fa-calendar"></i> 2005-2009
+                      <i class="fa fa-calendar"></i> 2014-2018
                     </h3>
-                    <h4 class="timeline-title">Master in Inrernational Economics</h4>
-                    <p class="timeline-text">University of Grenoble, France</p>
+                    <h4 class="timeline-title">Fitness coach/competing athlete</h4>
+                    <p class="timeline-text">Flexor, Odessa, Ukraine</p>
                   </div>
-                  <div class="timeline-item">
-                    <div class="circle-dot">
-                    </div>
-                    <h3 class="timeline-date">
-                      <i class="fa fa-calendar"></i> 2000-2004
-                    </h3>
-                    <h4 class="timeline-title">Master in Inrernational Business Administration</h4>
-                    <p class="timeline-text">University of Donetsk, Ukraine</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
           <div class="experience padd-15">
-            <h3 class="title">Experience</h3>
+            <h3 class="title">Education</h3>
             <div class="row">
               <div class="timeline-box padd-15">
                 <div class="timeline shadow-dark">
@@ -219,7 +215,7 @@
       </section> <!--A propos section se termine ici-->
 
       <!--Section Services commence ici-->
-      <section class="service section">
+      <section class="service section" id="services">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -289,7 +285,7 @@
 
       </section>
       <!--La section Portfolio s'arrête ici-->
-      <section class="portfolio section">
+      <section class="portfolio section" id="portfolio">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -350,7 +346,7 @@
         </div>
       </section>
       <!--Section Contacts commence ici-->
-      <section class="contact section">
+      <section class="contact section" id="contact">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -440,22 +436,24 @@
     </div>
   </main>
   <!--Switcher des skins commence ici-->
-    <div class="style-switcher">
-      <div class="style-switcher-toggler s-icon">
-        <i class="fas fa-cog fa-skin"></i>
-      </div>
-      <div class="day-night s-icon">
-        <i class="fas fa-moon"></i>
-      </div>
-      <h4>Theme Colors</h4>
-      <div class="colors">
-        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-      </div>
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
     </div>
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+    </div>
+  </div>
   <!--Switcher des skins prend fin ici-->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
 </body>
 </html>

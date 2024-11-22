@@ -1,3 +1,3 @@
-Ce dépôt contient mon site portfolio personnel, où sont présentés mes compétences et certains de mes projets. Le site est entièrement responsive et adapté aux écrans de toutes tailles.
+Ce dépôt contient mon site portfolio personnel, où sont présentés mes compétences et certains de mes projets. Le site est entièrement responsive et adapté aux écrans de toutes tailles. Des éléments dynamiques ont été rajoutés en utilisant le JavaScript. 
 
-ENG: This repository contains my personal portfolio website, showcasing my core competencies and some of my recent projects. The site features a user-friendly design with multiple color themes for a more personalized user experience. It is fully responsive and optimized for screens of all sizes.
+ENG: This repository contains my personal portfolio website, showcasing my core competencies and some of my recent projects. The site features a user-friendly design with multiple color themes for a more personalized user experience. It is fully responsive and optimized for screens of all sizes. Dynamic elements were added using JavaScript. 
